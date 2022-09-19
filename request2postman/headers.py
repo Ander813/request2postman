@@ -1,0 +1,1 @@
+DEFAULT_SKIP_HEADERS = ["User-Agent", "Connection", "Accept-Encoding", "Accept"]
