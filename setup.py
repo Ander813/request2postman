@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as file:
 setup(
     name="request2postman",
     packages=["request2postman"],
-    version="0.1.0",
+    version="0.1.1",
     license="MIT",
     description="Lib that generates postman collections out of requests",
     long_description=readme,
