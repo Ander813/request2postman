@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as file:
 setup(
     name="request2postman",
     packages=["request2postman"],
-    version="0.1.0",
+    version="0.1.1",
     license="MIT",
     description="Lib that generates postman collections out of requests",
     long_description=readme,
@@ -16,7 +16,7 @@ setup(
     author="Egor Gondurov",
     author_email="ander_the_wood@mail.ru",
     url="https://github.com/Ander813",
-    download_url="https://github.com/Ander813/request2postman/archive/refs/tags/0.1.0.tar.gz",
+    download_url="https://github.com/Ander813/request2postman/archive/refs/tags/0.1.1.tar.gz",
     keywords=["requests", "postman", "generate postman collections"],
     install_requires=[
         "requests",
