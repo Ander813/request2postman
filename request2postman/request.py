@@ -19,7 +19,7 @@ class Request:
         if not (isinstance(request, Req) or isinstance(request, PreparedRequest)):
             raise Exception(f"Unsupported request type - {request.__class__}")
 
-        self._request = request if isinstance(request, PreparedRequest) else Req
+        self._request = request if isinstance(request, PreparedRequest) else request.prepare()
 
         self.name = name
         self.skip_headers = (
